@@ -94,17 +94,24 @@ main .personagem .imagem {
 }
 
 a:link{
-    text-decoration: none;
+
+    color: rgb(38, 207, 229);
 }
+
 a:visited{
-    color:white;
+    color:rgb(255, 255, 255);
 }
+
 
 a:hover{
     color:rgba(242, 242, 81, 0.999);
-    text-decoration: underline ;
+    text-decoration: none;
 }
 
 a:active{
     color: rgb(132, 216, 216);
+}
+
+abbr{
+    text-decoration: none;
 }
